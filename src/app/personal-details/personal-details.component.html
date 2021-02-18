@@ -1,0 +1,73 @@
+<div class="container board-inner" id="status-buttons">
+    
+    <ul class="nav nav-tabs" id="myTab">
+       
+                    
+        <!-- circular user icon -->
+        <li>
+            <a  data-toggle="tab" title="Personal Details">
+                <span class="round-tabs one">
+                    1
+                </span>
+                Personal Details
+            </a>
+        </li>
+
+        <!-- circular tasks icon -->
+         <li>
+            <a data-toggle="tab" title="Contact Details">
+                <span class="round-tabs">
+                    2
+                </span> 
+                Contact Details
+            </a>
+        </li>
+
+        <!-- circular home icon -->
+        <li>
+            <a  data-toggle="tab" title="Skills">
+                <span class="round-tabs three">
+                    3
+                </span>
+                Skills
+            </a>
+        </li>
+
+        <!-- circular ok icon -->
+        <li>
+            <a data-toggle="tab" title=" Work Experince">
+                <span class="round-tabs four">
+                   4
+                </span>
+                Work Experince
+            </a>
+        </li>
+                
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+<div class="container personal">
+    <div>
+        
+    </div>
+    <div class="personal-section">
+        <h1>Step 1: Personal Details</h1>
+        <div class="form-section">
+            
+            <p>
+              <label>Last name: </label>
+              <input type="text" formControlName="lastName" />
+            </p>
+            <p>
+              <label>First name:</label>
+              <input type="text" formControlName="firstName" />
+            </p>
+
+          </div>
+          <div class="button-section">
+              <a type="button" class="btn-primary" routerLink="/ContactDetails">Next</a>
+          </div>
+    </div>
+</div>
+

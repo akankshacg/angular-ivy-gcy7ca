@@ -1,0 +1,78 @@
+<div class="container board-inner" id="status-buttons">
+    
+    <ul class="nav nav-tabs" id="myTab">
+        <div class="linerContact"></div>
+                    
+        <!-- circular user icon -->
+        <li>
+            <a  data-toggle="tab" title="personal details">
+                <span class="round-tabs one">
+                    1
+                </span>
+                Personal Details
+            </a>
+        </li>
+
+        <!-- circular tasks icon -->
+         <li>
+            <a  data-toggle="tab" title="Contact Details">
+                <span class="round-tabs">
+                    2
+                </span> 
+                Contact Details
+            </a>
+        </li>
+
+        <!-- circular home icon -->
+        <li>
+            <a  data-toggle="tab" title="Skills">
+                <span class="round-tabs three">
+                    3
+                </span>
+                Skills
+            </a>
+        </li>
+
+        <!-- circular ok icon -->
+        <li>
+            <a data-toggle="tab" title="completed">
+                <span class="round-tabs four">
+                   4
+                </span>
+                Work Experince
+            </a>
+        </li>
+                
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+<div class="container personal">
+    <div>
+        
+    </div>
+    <div class="personal-section">
+        <h1>Step 2: Contact Details</h1>
+        <div class="form-section">
+            
+            <p>
+              <label>Email:</label>
+              <input type="Email" formControlName="email" />
+            </p>
+            <p>
+              <label>Mobile:</label>
+              <input type="text" formControlName="mobile" />
+            </p>
+            <p>
+                <label>Country:</label>
+                <input type="text" formControlName="Country" />
+              </p>
+
+          </div>
+          <div class="button-section">
+            <a type="button" class="btn-primary" routerLink="/PersonalDetails">Back</a> &nbsp; 
+            <a type="button" class="btn-primary" routerLink="/Skills">Next</a>
+          </div>
+    </div>
+</div>
+

@@ -1,0 +1,84 @@
+<div class="container board-inner" id="status-buttons">
+    
+    <ul class="nav nav-tabs" id="myTab">
+        <div class="linerContact"></div>
+                    
+        <!-- circular user icon -->
+        <li>
+            <a  data-toggle="tab" title="Personal Details">
+                <span class="round-tabs one">
+                    1
+                </span>
+                Personal Details
+            </a>
+        </li>
+
+        <!-- circular tasks icon -->
+         <li>
+            <a  data-toggle="tab" title="Contact Details">
+                <span class="round-tabs">
+                    2
+                </span> 
+                Contact Details
+            </a>
+        </li>
+
+        <!-- circular home icon -->
+        <li>
+            <a data-toggle="tab" title="Skills">
+                <span class="round-tabs three">
+                    3
+                </span>
+                Skills
+            </a>
+        </li>
+
+        <!-- circular ok icon -->
+        <li>
+            <a data-toggle="tab" title="Work Experince">
+                <span class="round-tabs four">
+                   4
+                </span>
+                Work Experince
+            </a>
+        </li>
+                
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+<div class="container personal">
+    <div>
+        
+    </div>
+    <div class="personal-section">
+        <h1>Step 4: Work Experince Details</h1>
+        <div class="form-section">
+            
+            <p>
+                <label>Job 1:</label>
+                <input type="text" formControlName="Job1" />
+              </p>
+              <p>
+                <label>Job 2:</label>
+                <input type="text" formControlName="Job2" />
+              </p>
+           
+                <p>
+                    <label>Job 3:</label>
+                    <input type="text" formControlName="Job3" /> &nbsp;
+                    <button *ngIf="fieldArray.length <= 10" class="btn btn-success btn-sm" type="button" (click)="addFieldValue()">+</button>
+                  </p>
+                  <p *ngFor="let field of fieldArray; let i = index">
+                    <label>Job {{i+4}}:</label>
+                    <input type="text" formControlName="Skill3" />
+                  </p>
+
+          </div>
+          <div class="button-section">
+            <a type="button" class="btn-primary" routerLink="/Skills">Back</a> &nbsp;
+            <a type="button" class="btn-primary" routerLink="/WizardFinished">Next</a>
+          </div>
+    </div>
+</div>
+

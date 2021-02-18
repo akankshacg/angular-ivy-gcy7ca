@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+#status-buttons{
+    background: #1977a138;
+    padding: 15px 10px;
+    border: 1px solid green;
+    border-top: 0px;
+}
+#myTab{
+    margin: 0 140px;
+    width: 80%;
+}
+#myTab li{
+    width: 222px;
+    padding: 0 45px;
+}
+.personal-section{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 15px;
+    
+}
+.personal {
+    background: white;
+    border: 1px solid #4492d0;
+    height: 400px;
+}
+.personal-section h1{
+    font-size: 20px;
+}
+.button-section{
+    text-align: right;
+}
+.button-section button{
+    background: #5bc0de;
+    padding: 2px 25px;
+    border: 1px solid #000;
+}
+
+.form-section {
+    width: 52%;
+    margin: 0 auto;
+    padding: 25px 10px;
+    
+}
+label{
+    padding-right: 30px;
+    width: 120px;
+}
+
+/* active buttons */
+#status-buttons a span.round-tabs { 
+    background: #22c222;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.btn-danger, .btn-primary{
+    padding: 5px 15px;
+    border: 1px solid #fff;
+}
+.bg-info{
+    color: white;
+}
